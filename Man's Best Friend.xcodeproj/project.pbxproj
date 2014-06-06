@@ -21,6 +21,7 @@
 		C73E203D19414F9E00857A4A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C73E201F19414F9D00857A4A /* UIKit.framework */; };
 		C73E204519414F9E00857A4A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C73E204319414F9E00857A4A /* InfoPlist.strings */; };
 		C73E204719414F9E00857A4A /* Man_s_Best_FriendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E204619414F9E00857A4A /* Man_s_Best_FriendTests.m */; };
+		C73E20521941590E00857A4A /* TEADog.m in Sources */ = {isa = PBXBuildFile; fileRef = C73E20511941590E00857A4A /* TEADog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C73E204219414F9E00857A4A /* Man's Best FriendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Man's Best FriendTests-Info.plist"; sourceTree = "<group>"; };
 		C73E204419414F9E00857A4A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C73E204619414F9E00857A4A /* Man_s_Best_FriendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Man_s_Best_FriendTests.m; sourceTree = "<group>"; };
+		C73E20501941590E00857A4A /* TEADog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEADog.h; sourceTree = "<group>"; };
+		C73E20511941590E00857A4A /* TEADog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEADog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				C73E202A19414F9D00857A4A /* TEAAppDelegate.h */,
 				C73E202B19414F9D00857A4A /* TEAAppDelegate.m */,
 				C73E202D19414F9D00857A4A /* Main.storyboard */,
+				C73E20501941590E00857A4A /* TEADog.h */,
+				C73E20511941590E00857A4A /* TEADog.m */,
 				C73E203019414F9D00857A4A /* TEAViewController.h */,
 				C73E203119414F9D00857A4A /* TEAViewController.m */,
 				C73E203319414F9D00857A4A /* Images.xcassets */,
@@ -253,6 +258,7 @@
 				C73E203219414F9D00857A4A /* TEAViewController.m in Sources */,
 				C73E202819414F9D00857A4A /* main.m in Sources */,
 				C73E202C19414F9D00857A4A /* TEAAppDelegate.m in Sources */,
+				C73E20521941590E00857A4A /* TEADog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
