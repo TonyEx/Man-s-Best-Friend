@@ -26,7 +26,7 @@
 	
 	myDog.name = @"Nanavisitor";
 	myDog.breed = @"St. Bernard";
-	myDog.age = 1;
+	myDog.age = 2;
 	myDog.image = [UIImage imageNamed:@"St.Bernard.JPG"];
 	
 	self.myImageView.image = myDog.image;
