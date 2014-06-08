@@ -10,4 +10,6 @@
 
 @interface TEAViewController : UIViewController
 
+-(void) printHelloWorld;
+
 @end
