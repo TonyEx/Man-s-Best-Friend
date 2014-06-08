@@ -8,6 +8,7 @@
 
 #import "TEAViewController.h"
 #import "TEADog.h"
+#import "TEAPuppy.h"
 
 @interface TEAViewController ()
 
@@ -32,7 +33,7 @@
 	self.nameLabel.text = myDog.name;
 	self.breedLabel.text = myDog.breed;
 	
-	self.currDog = 1;
+	self.currDog = 0;
 	
 	
 	TEADog *secondDog = [[TEADog alloc] init];
@@ -58,6 +59,16 @@
 	[self.myDogs addObject:fourthDog];
 	NSLog(@"%@", self.myDogs);
 	
+	TEAPuppy *littlePuppy = [[TEAPuppy alloc] init];
+	[littlePuppy givePuppyEyes];
+	[littlePuppy bark];
+	littlePuppy.name = @"Bo O";
+	littlePuppy.breed = @"Portugese Water Dog";
+	littlePuppy.image = [UIImage imageNamed:@"Bo.jpg"];
+	 
+	[self.myDogs addObject:littlePuppy];
+	 
+//	[myDog givePuppyEyes];
 	
 //	NSLog(@"My dog is named %@ and its' age is %i, and it's breed is %@.", myDog.name, myDog.age, myDog.breed);
 	
